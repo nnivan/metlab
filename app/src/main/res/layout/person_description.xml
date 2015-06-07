@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView android:id="@+id/imageView"
+        android:contentDescription="1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/android_logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Name"
+        android:id="@+id/txtName"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageView"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:padding="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:id="@+id/txtDescription"
+        android:textStyle="normal"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:textColor="#FF000000"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0000000000"
+        android:id="@+id/txtPhone"
+        android:textStyle="normal"
+        android:textSize="20dp"
+        android:onClick="callPhone"
+        android:clickable="true"
+        android:padding="5dp"
+        android:textColor="#ff000000"
+        android:layout_below="@+id/txtName"
+        android:layout_toEndOf="@+id/imageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:id="@+id/txtEmail"
+        android:textStyle="normal"
+        android:textSize="20dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_below="@+id/txtPhone"
+        android:onClick="sendEmail"
+        android:clickable="true"
+        android:padding="5dp"
+        android:textColor="#ff000000" />
+
+    <!-- TODO: FIX THIS -->
+
+     <!--<ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView2"
+        android:onClick="callPhone"
+        android:src="@drawable/phone"
+         android:layout_alignTop="@+id/imageView3"
+         android:layout_alignParentStart="true"
+         android:layout_marginStart="44dp" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView3"
+        android:src="@drawable/email"
+        android:layout_marginBottom="41dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/txtPhone" />-->
+
+
+</RelativeLayout>

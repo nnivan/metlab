@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MetLab</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_grid_view">GridViewActivity</string>
+    <string name="title_activity_neme_select">NemeSelectActivity</string>
+    <string name="title_activity_category_select">CategorySelectActivity</string>
+    <string name="title_activity_person_description">PersonDescriptionActivity</string>
+    <string name="title_activity_send_email">SendEmailActivity</string>
+</resources>
